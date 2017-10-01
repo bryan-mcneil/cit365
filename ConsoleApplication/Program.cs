@@ -10,6 +10,27 @@ namespace ConsoleApplication
     {
         static void Main(string[] args)
         {
+            for (int jobber = 0; jobber < 10; jobber = jobber + 1)
+            {
+                Console.WriteLine("Hello");
+            }
+
+            int x = 9;
+            int y = 99;
+            int[] a = new int[90];
+            try
+            {
+                a[x] = y;
+            }
+            catch (IndexOutOfRangeException e)
+            {
+                Console.Write("Error");
+            }
+            finally
+            {
+                Console.Write("Thank you. ");
+            }
+            Console.Write("Continue");
             Console.WriteLine("Hello World!");
             Console.WriteLine("Bryan McNeil");
             Console.WriteLine("Idaho");

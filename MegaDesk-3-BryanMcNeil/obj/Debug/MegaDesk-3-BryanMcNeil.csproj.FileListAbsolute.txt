@@ -1,0 +1,13 @@
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\bin\Debug\MegaDesk-3-BryanMcNeil.exe.config
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\bin\Debug\MegaDesk-3-BryanMcNeil.exe
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\bin\Debug\MegaDesk-3-BryanMcNeil.pdb
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.csprojResolveAssemblyReference.cache
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.AddQuote.resources
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.DisplayQuote.resources
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.Form1.resources
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.Properties.Resources.resources
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.csproj.GenerateResource.Cache
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.csproj.CoreCompileInputs.cache
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.exe
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.pdb
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.ViewQuote.resources

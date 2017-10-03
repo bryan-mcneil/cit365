@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,35 +13,39 @@ namespace MegaDesk_3_BryanMcNeil
 {
     public partial class AddQuote : Form
     {
-        public ErrorProvider IntError { get; }
-
-        public AddQuote()
+        public AddQuote(Form form1)
         {
             InitializeComponent();
-            IntError = new ErrorProvider();
+            this.form1 = form1;
+            form1.Hide();
         }
-
-        private void WidthBox_Validating(object sender, CancelEventArgs e)
-        {
-            if (int.Parse(WidthBox.Text) < 23 || int.Parse(WidthBox.Text) > 96)
-            {
-                e.Cancel = true;
-                WidthBox.Select(0, WidthBox.Text.Length);
-                this.IntError.SetError(WidthBox, "Min Width 24\" Max Width: 96\'");
-            }
-
-        }
-
-        private void WidthBox_Validated(object sender, EventArgs e)
-        {
-            this.IntError.SetError(WidthBox, "");
-        }
+        private Form form1;
 
         private void button1_Click(object sender, EventArgs e)
         {
-            DisplayQuote DisplayNewQuoteForm = new DisplayQuote();
+            List<string> info = new List<string>();
+            info.Add(NameBox.Text);
+            info.Add(WidthBox.Text);
+            info.Add(DepthBox.Text);
+            info.Add(DrawerBox.Text);
+            info.Add(MaterialBox.Text);
+
+            TextWriter writer = new StreamWriter("quote.txt", true);
+            writer.Write(NameBox.Text + ",");
+            writer.Write(WidthBox.Text + ",");
+            writer.Write(DepthBox.Text + ",");
+            writer.Write(DrawerBox.Text + ",");
+            writer.Write(MaterialBox.Text + '\n');
+            writer.Close();
+
+            DisplayQuote DisplayNewQuoteForm = new DisplayQuote(info, this);
             DisplayNewQuoteForm.Show();
-            this.Hide();
+        }
+
+        private void addExit_Click(object sender, EventArgs e)
+        {
+            form1.Show();
+            this.Close();
         }
     }
 }

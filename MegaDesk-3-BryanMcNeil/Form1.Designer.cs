@@ -52,6 +52,7 @@
             this.viewBtn.TabIndex = 1;
             this.viewBtn.Text = "View Quote";
             this.viewBtn.UseVisualStyleBackColor = true;
+            this.viewBtn.Click += new System.EventHandler(this.viewBtn_Click);
             // 
             // exitBtn
             // 
@@ -61,6 +62,7 @@
             this.exitBtn.TabIndex = 2;
             this.exitBtn.Text = "Exit";
             this.exitBtn.UseVisualStyleBackColor = true;
+            this.exitBtn.Click += new System.EventHandler(this.exitBtn_Click);
             // 
             // searchBtn
             // 
@@ -70,6 +72,7 @@
             this.searchBtn.TabIndex = 3;
             this.searchBtn.Text = "Search Quote";
             this.searchBtn.UseVisualStyleBackColor = true;
+            this.searchBtn.Click += new System.EventHandler(this.searchBtn_Click);
             // 
             // Form1
             // 

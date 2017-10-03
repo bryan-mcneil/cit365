@@ -19,9 +19,25 @@ namespace MegaDesk_3_BryanMcNeil
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-            AddQuote addNewQuoteForm = new AddQuote();
+            AddQuote addNewQuoteForm = new AddQuote(this);
             addNewQuoteForm.Show();
-            this.Hide();
+        }
+
+        private void viewBtn_Click(object sender, EventArgs e)
+        {
+            ViewQuote viewQuoteForm = new ViewQuote(this);
+            viewQuoteForm.Show();
+        }
+
+        private void searchBtn_Click(object sender, EventArgs e)
+        {
+            SearchQuote viewQuoteForm = new SearchQuote(this);
+            viewQuoteForm.Show();
+        }
+
+        private void exitBtn_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

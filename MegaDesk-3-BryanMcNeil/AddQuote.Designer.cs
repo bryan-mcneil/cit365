@@ -34,11 +34,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.DepthBox = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.NameBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.DrawerBox = new System.Windows.Forms.ComboBox();
+            this.MaterialBox = new System.Windows.Forms.ComboBox();
+            this.addExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // WidthBox
@@ -46,9 +47,7 @@
             this.WidthBox.Location = new System.Drawing.Point(121, 84);
             this.WidthBox.Name = "WidthBox";
             this.WidthBox.Size = new System.Drawing.Size(100, 20);
-            this.WidthBox.TabIndex = 0;
-            this.WidthBox.Validating += new System.ComponentModel.CancelEventHandler(this.WidthBox_Validating);
-            this.WidthBox.Validated += new System.EventHandler(this.WidthBox_Validated);
+            this.WidthBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -91,21 +90,7 @@
             this.DepthBox.Location = new System.Drawing.Point(121, 122);
             this.DepthBox.Name = "DepthBox";
             this.DepthBox.Size = new System.Drawing.Size(100, 20);
-            this.DepthBox.TabIndex = 5;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(121, 159);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
-            this.textBox3.TabIndex = 6;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(121, 196);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 7;
+            this.DepthBox.TabIndex = 2;
             // 
             // label2
             // 
@@ -121,11 +106,11 @@
             this.NameBox.Location = new System.Drawing.Point(121, 49);
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(100, 20);
-            this.NameBox.TabIndex = 9;
+            this.NameBox.TabIndex = 0;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(99, 239);
+            this.button1.Location = new System.Drawing.Point(50, 239);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 10;
@@ -133,16 +118,60 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // DrawerBox
+            // 
+            this.DrawerBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.DrawerBox.FormattingEnabled = true;
+            this.DrawerBox.Items.AddRange(new object[] {
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"});
+            this.DrawerBox.Location = new System.Drawing.Point(121, 159);
+            this.DrawerBox.Name = "DrawerBox";
+            this.DrawerBox.Size = new System.Drawing.Size(100, 21);
+            this.DrawerBox.TabIndex = 3;
+            // 
+            // MaterialBox
+            // 
+            this.MaterialBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.MaterialBox.FormattingEnabled = true;
+            this.MaterialBox.Items.AddRange(new object[] {
+            "Oak",
+            "Laminate",
+            "Pine",
+            "Rosewood",
+            "Veneer"});
+            this.MaterialBox.Location = new System.Drawing.Point(121, 191);
+            this.MaterialBox.Name = "MaterialBox";
+            this.MaterialBox.Size = new System.Drawing.Size(100, 21);
+            this.MaterialBox.TabIndex = 4;
+            // 
+            // addExit
+            // 
+            this.addExit.Location = new System.Drawing.Point(180, 239);
+            this.addExit.Name = "addExit";
+            this.addExit.Size = new System.Drawing.Size(75, 23);
+            this.addExit.TabIndex = 11;
+            this.addExit.Text = "Exit";
+            this.addExit.UseVisualStyleBackColor = true;
+            this.addExit.Click += new System.EventHandler(this.addExit_Click);
+            // 
             // AddQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(302, 274);
+            this.Controls.Add(this.addExit);
+            this.Controls.Add(this.MaterialBox);
+            this.Controls.Add(this.DrawerBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.NameBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
             this.Controls.Add(this.DepthBox);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -164,10 +193,11 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox DepthBox;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox NameBox;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ComboBox DrawerBox;
+        private System.Windows.Forms.ComboBox MaterialBox;
+        private System.Windows.Forms.Button addExit;
     }
 }

@@ -12,9 +12,18 @@ namespace MegaDesk_3_BryanMcNeil
 {
     public partial class SearchQuote : Form
     {
-        public SearchQuote()
+        public SearchQuote(Form form1)
         {
             InitializeComponent();
+            this.form1 = form1;
+            form1.Hide();
+        }
+        private Form form1;
+
+        private void SearchExit_Click(object sender, EventArgs e)
+        {
+            form1.Show();
+            this.Close();
         }
     }
 }

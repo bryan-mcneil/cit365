@@ -11,3 +11,4 @@ C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-B
 C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.exe
 C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk-3-BryanMcNeil.pdb
 C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.ViewQuote.resources
+C:\Users\Bryan\Source\Repos\CIT365\MegaDesk-3-BryanMcNeil\obj\Debug\MegaDesk_3_BryanMcNeil.SearchQuote.resources

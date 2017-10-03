@@ -25,5 +25,11 @@ namespace MegaDesk_3_BryanMcNeil
             form1.Show();
             this.Close();
         }
+
+        private void SearchBtn_Click(object sender, EventArgs e)
+        {
+            ViewQuote viewQuoteForm = new ViewQuote(this);
+            viewQuoteForm.Show();
+        }
     }
 }

@@ -1,0 +1,1 @@
+C:\Users\Bryan\source\repos\cit365\BasicUWP\BasicUWP.csproj;x86

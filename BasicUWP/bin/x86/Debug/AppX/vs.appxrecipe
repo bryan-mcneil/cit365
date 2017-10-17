@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\Bryan\source\repos\cit365\BasicUWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-10-14T23:20:59.793</Modified>
+      <Modified>2017-10-15T00:02:56.921</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Bryan\source\repos\cit365\BasicUWP\bin\x86\Debug\BasicUWP.exe">
       <PackagePath>entrypoint\BasicUWP.exe</PackagePath>
-      <Modified>2017-10-14T23:20:59.451</Modified>
+      <Modified>2017-10-15T00:02:56.569</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bryan\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -548,7 +548,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bryan\source\repos\cit365\BasicUWP\bin\x86\Debug\Core\BasicUWP.exe">
       <PackagePath>BasicUWP.exe</PackagePath>
-      <Modified>2017-10-14T23:20:59.787</Modified>
+      <Modified>2017-10-15T00:02:56.915</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

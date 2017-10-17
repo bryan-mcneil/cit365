@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Text.RegularExpressions;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Popups;
@@ -55,7 +56,7 @@ namespace BasicUWP
 
             if (textBoxWidth.Text != "")
             {
-                if (!int.TryParse(textBoxWidth.Text, out i))
+                if (!Regex.IsMatch(e.Key.ToString(), @"/^\d*\.?\d*$/"))
                 {
                     var messageDialog = new MessageDialog("Please enter a number");
                     messageDialog.ShowAsync();
